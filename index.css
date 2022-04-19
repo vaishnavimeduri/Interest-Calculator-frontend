@@ -1,0 +1,36 @@
+table,td,tr,th{
+    border: 2px solid black;
+    padding:4px;
+}
+
+body{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+table{
+    width:100vh;
+    height:40vh;
+}
+
+button{
+    margin: 16px;
+    background-color: yellow;
+    color:palevioletred;
+    height: 60px;
+    width:110px;
+    border-radius: 55px;
+    border: none;
+}
+
+th{
+    background-color: navy;
+    color: whitesmoke;
+}
+
+.instructions{
+    font-size: x-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

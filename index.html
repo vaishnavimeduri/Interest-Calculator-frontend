@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <table>
+        <tr><th>name</th><th>Balance</th>
+        <th>Balance after Interest</th></tr>
+        <tr ><td>Aditi</td><td ><input type="number" placeholder="Enter your balance" id="balance1"> </td>
+        <td id="balance1after"> </td></tr>
+        <tr ><td>Vaishnavi</td><td ><input type="number" placeholder="Enter your balance" id="balance2"> </td>
+        <td id="balance2after"> </td></tr>
+        <tr ><td>Samuel</td><td ><input type="number" placeholder="Enter your balance" id="balance3"> </td>
+        <td id="balance3after"> </td></tr>
+        <tr ><td>Chaitanya</td><td ><input type="number" placeholder="Enter your balance" id="balance4"> </td>
+        <td id="balance4after"> </td></tr>
+        <tr ><td>Akash</td><td ><input type="number" placeholder="Enter your balance" id="balance5"> </td>
+        <td id="balance5after"> </td></tr>
+    </table>
+    
+    <button onclick="calcInterest()">calc interest</button>
+
+    <div>
+        <p>
+          <div class="instructions"> Note:-</div>
+          <div class="instructions"> Interest Calculated on basis of following instructions:</div>
+          <div class="instructions"> 1. If balance is greater than 2,00,000- add 10% Interest and deduct 0.2% Maintainance charge</div>
+          <div class="instructions"> 2. If balance is greater than 1,00,000- add 5% Interest and deduct 0.05% Maintainance charge</div>
+          <div class="instructions"> 3. If balance is lesser than 1,00,000- add 3% Interest </div> 
+        </p>
+    </div>
+</body>
+</html>

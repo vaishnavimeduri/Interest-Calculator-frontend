@@ -9,11 +9,11 @@ function calcInterest(){
     arr.push(document.getElementById("balance5").value)
     
     for(balance of arr){
-        if(Number(balance)>2,00,000){
+        if(Number(balance)>200000){
     arr1.push(Number(balance)+((Number(balance)*10)/100)-((Number(balance)*0.2)/100))
     
         }
-       else if(Number(balance)>1,00,000){
+       else if(Number(balance)>100000){
         arr1.push(Number(balance)+((Number(balance)*5)/100)-((Number(balance)*0.05)/100))
          
                 }

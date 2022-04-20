@@ -8,17 +8,18 @@ function calcInterest(){
     arr.push(document.getElementById("balance4").value)
     arr.push(document.getElementById("balance5").value)
     
-    for(balance of arr){
-        if(Number(balance)>200000){
-    arr1.push(Number(balance)+((Number(balance)*10)/100)-((Number(balance)*0.2)/100))
+    for(let i=0;i<arr.length;i++){
+        let z=Number(arr[i])
+        if(z>200000){
+            arr1.push((z+((z*10)/100))-(((z+((z*10)/100))*0.2)/100))
     
         }
-       else if(Number(balance)>100000){
-        arr1.push(Number(balance)+((Number(balance)*5)/100)-((Number(balance)*0.05)/100))
+       else if(z>100000){
+        arr1.push((z+((z*5)/100))-(((z+((z*10)/100))*0.05)/100))
          
                 }
                 else {
-                arr1.push(Number(balance)+(Number(balance)*3)/100)
+                arr1.push(z+(z*3)/100)
                   
                     }
                

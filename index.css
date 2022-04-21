@@ -9,10 +9,13 @@ body{
     justify-content: center;
     align-items: center;
 }
+th,td{
+    text-align: center;
+}
 
 table{
     width:100vh;
-    height:40vh;
+    height:60vh;
 }
 
 button{
@@ -33,4 +36,10 @@ th{
 .instructions{
     font-size: x-large;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+input{
+    padding:20px 40px;
+}
+th{
+    height:60px;
 }

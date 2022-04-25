@@ -37,8 +37,7 @@ function calcInterest(){
     let bankbalance=document.getElementsByClassName("inputbalancenodes")
     let updatedbankbalance=document.getElementsByClassName("output")
     for(let i=0;i<bankbalance.length;i++){
-        
-                let z=Number(bankbalance[i].value)
+        let z=Number(bankbalance[i].value)
                 if(z>200000){
                     arr1.push((z+((z*10)/100))-(((z+((z*10)/100))*0.2)/100))
                  }
